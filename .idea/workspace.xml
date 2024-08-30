@@ -4,24 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54767134-845a-4c95-98fc-2d2c96738c4b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/JavaHomeTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/controller/EventController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/core/model/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/core/model/PayloadWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/core/model/Statistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/core/service/EventService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/core/service/Impl/EventServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/exception/NotDecimalException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/exception/NotRangeOfException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/exception/NotTenDigitsAfterDotException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/exception/NotThreeCommaSeparatedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="54767134-845a-4c95-98fc-2d2c96738c4b" name="Changes" comment="added implementation">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/core/model/ProcessingResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/core/service/impl/EventServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/resolution/school/controller/EventControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/resolution/school/core/service/impl/EventServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/resolution/school/JavaHomeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/JavaHomeTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/resolution/school/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/resolution/school/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/controller/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/resolution/school/core/model/PayloadWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/core/model/ErrorDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/resolution/school/core/model/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/core/model/Statistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/resolution/school/core/service/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/core/service/EventService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/resolution/school/core/service/Impl/EventServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/resolution/school/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/resolution/school/exception/GlobalExceptionHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +31,37 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JavaHomeTask" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JavaHomeTask" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JavaHomeTask" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,24 +83,118 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.5689655",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "c80eab20750322113092dde09988abb0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5689655&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;c80eab20750322113092dde09988abb0&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.EventServiceImplTest.givenValidPayload_whenProcessEvent_thenShouldProcessSuccessfully (1)">
+    <configuration name="EventControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.resolution.school.controller.EventControllerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EventControllerTest.givenNoRecentEvents_whenGetStats_thenReturnNotFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.resolution.school.controller.EventControllerTest.givenNoRecentEvents_whenGetStats_thenReturnNotFound&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EventServiceImplTest.givenValidPayload_whenProcessEvent_thenShouldProcessSuccessfully (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.resolution.school.core.service.impl.EventServiceImplTest.givenValidPayload_whenProcessEvent_thenShouldProcessSuccessfully&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EventServiceImplTest.givenValidPayload_whenProcessEvent_thenShouldProcessSuccessfully" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.resolution.school.core.service.EventServiceImplTest.givenValidPayload_whenProcessEvent_thenShouldProcessSuccessfully&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="JavaHomeTask" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="JavaHomeTask.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.resolution.school.JavaHomeTask" />
@@ -84,9 +208,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="aws.lambda" factoryName="Remote">
+      <option name="credentialProviderId" />
+      <option name="regionId" />
+      <option name="functionName" />
+      <option name="input" />
+      <option name="inputIsFile" value="false" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.EventServiceImplTest.givenValidPayload_whenProcessEvent_thenShouldProcessSuccessfully (1)" />
         <item itemvalue="Spring Boot.JavaHomeTask" />
+        <item itemvalue="Gradle.EventServiceImplTest.givenValidPayload_whenProcessEvent_thenShouldProcessSuccessfully" />
+        <item itemvalue="Gradle.EventControllerTest" />
+        <item itemvalue="Gradle.EventControllerTest.givenNoRecentEvents_whenGetStats_thenReturnNotFound" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +236,18 @@
       <updated>1724843039515</updated>
       <workItem from="1724843041608" duration="23854000" />
       <workItem from="1724919691874" duration="1278000" />
+      <workItem from="1724964009257" duration="1960000" />
+      <workItem from="1725003243357" duration="22190000" />
+      <workItem from="1725027694662" duration="899000" />
     </task>
+    <task id="LOCAL-00001" summary="added implementation">
+      <created>1724921713864</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724921713864</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +264,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added implementation" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -127,5 +278,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaHomeTask$JavaHomeTask.ic" NAME="JavaHomeTask Coverage Results" MODIFIED="1724961527374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.resolution.school.*</FILTER>
+    </SUITE>
   </component>
 </project>

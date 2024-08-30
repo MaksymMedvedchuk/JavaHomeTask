@@ -4,13 +4,13 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Statistics {
-	private int total;
-	private double decimalSum;
-	private double decimalAvg;
-	private long rangeSum;
-	private long rangeAvg;
+public class ProcessingResult {
+	private int totalRows;
+	private int processedRows;
+	private List<ErrorDetail> errors;
 }

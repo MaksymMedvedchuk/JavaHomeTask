@@ -12,10 +12,12 @@ public class GlobalExceptionHandler {
 	public ResponseEntity<String> handleNotThreeCommaSeparatedException(NotThreeCommaSeparatedException ex) {
 		return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(ex.getMessage());
 	}
+
 	@ExceptionHandler(NotTenDigitsAfterDotException.class)
 	public ResponseEntity<String> handleNotTenDigitsAfterDotException(NotTenDigitsAfterDotException ex) {
 		return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(ex.getMessage());
 	}
+
 	@ExceptionHandler(NotDecimalException.class)
 	public ResponseEntity<String> handleNotDecimalException(NotDecimalException ex) {
 		return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(ex.getMessage());
