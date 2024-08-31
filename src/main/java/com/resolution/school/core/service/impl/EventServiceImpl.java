@@ -45,7 +45,7 @@ public class EventServiceImpl implements EventService {
 				String[] parts = line.split(LINE_SPLIT);
 				if (parts.length != PAYLOAD_LENGTH) {
 					throw new NotThreeCommaSeparatedException(
-						"Payload must contain exactly three comma-separated values.");
+						"Payload must contain exactly three comma-separated values");
 				}
 
 				long timestamp = Long.parseLong(parts[0]);
@@ -54,17 +54,15 @@ public class EventServiceImpl implements EventService {
 				double decimalNumber = Double.parseDouble(stringDecimal);
 
 				if (decimalNumber < MIN_DECIMAL_NUMBER || decimalNumber > MAX_DECIMAL_NUMBER) {
-					throw new NotDecimalException("Second number should be decimal within 0 to 1. Line: " + line);
+					throw new NotDecimalException("Second number should be decimal within 0 to 1");
 				}
 
 				if (stringDecimal.isEmpty() || !DECIMAL_PATTERN.matcher(stringDecimal).matches()) {
-					throw new NotTenDigitsAfterDotException("Second number should have 10 digits after dot. Line: " +
-						line);
+					throw new NotTenDigitsAfterDotException("Second number should have 10 digits after dot");
 				}
 
 				if (rangeNumber < MIN_RANGE_NUMBER || rangeNumber > MAX_RANGE_NUMBER) {
-					throw new NotRangeOfException("Third number should be within 1073741823 to 2147483647. Line: " +
-						line);
+					throw new NotRangeOfException("Third number should be within 1073741823 to 2147483647");
 				}
 
 				Event event = new Event(timestamp, decimalNumber, rangeNumber);
@@ -94,7 +92,7 @@ public class EventServiceImpl implements EventService {
 		return new Statistics(total, decimalSum, decimalAvg, rangeSum, rangeAvg);
 	}
 
-	private void cleanOldEvents() {
+	public void cleanOldEvents() {
 		long currentTime = System.currentTimeMillis();
 		while (!events.isEmpty() && (currentTime - events.peekFirst().getTimestamp() > TRACK_TIME)) {
 			events.pollFirst();

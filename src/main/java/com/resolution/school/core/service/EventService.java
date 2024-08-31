@@ -4,6 +4,7 @@ import com.resolution.school.core.model.ErrorDetail;
 import com.resolution.school.core.model.ProcessingResult;
 import com.resolution.school.core.model.Statistics;
 
+import java.util.Collection;
 import java.util.List;
 
 public interface EventService {
