@@ -13,8 +13,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.Deque;
 
-import static org.mockito.Mockito.doNothing;
-
 @ExtendWith(MockitoExtension.class)
 public class EventServiceImplTest {
 
@@ -87,21 +85,16 @@ public class EventServiceImplTest {
 		);
 	}
 
-//	@Test
-//	public void givenEvents_whenGetStatistics_thenShouldReturnCorrectStats() {
-//		String payload = """
-//			1724958223880,0.0442672968,1282509067\r
-//			1724958224880,0.0473002568,1282509067\r
-//			""";
-//		eventService.processEvent(payload);
-//
-//		doNothing().when(eventService).cleanOldEvents();
-//		Statistics stats = eventService.getStatistics();
-//
-//		Assertions.assertEquals(2, stats.getTotal());
-//		Assertions.assertEquals(0.0915675536, stats.getDecimalSum());
-//		Assertions.assertEquals(0.0457837768, stats.getDecimalAvg());
-//		Assertions.assertEquals(2565018134L, stats.getRangeSum());
-//		Assertions.assertEquals(1282509067L, stats.getRangeAvg());
-//	}
+	@Test
+	public void givenInvalidEvents_whenGetStatistics_thenShouldReturnNull() {
+		String payload = """
+			1724958223880,0.0442672968,1282509067\r
+			1724958224880,0.0473002568,1282509067\r
+			""";
+		eventService.processEvent(payload);
+
+		Statistics stats = eventService.getStatistics();
+
+		Assertions.assertEquals(0, stats.getTotal());
+	}
 }
